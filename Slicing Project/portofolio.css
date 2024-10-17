@@ -1,0 +1,359 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    background-color: #222629;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px  ;
+    position: sticky;
+    top: 0;
+    background-color: #222629;
+
+
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+ul {
+    display: flex;
+    gap: 10px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+
+
+.kontak {
+  border:2px solid  #61892f;
+    padding: 10px;
+    border-radius: 5px;
+    color: #86c232;
+}
+
+ .pertama {
+    /* background: rgb(66,4,126);
+    background: linear-gradient(90deg, rgba(66,4,126,1) 0%, rgba(7,244,158,1) 100%); */
+     width: 100vw;
+    height: 500px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  span{
+    color: #86c232  }
+  .image {
+      height: auto;
+      width: 300px;
+      border-radius: 10px;
+      margin-top: 40px;
+      box-shadow: 10px 8px 10px 0 rgba(29, 20, 26, 0.2);
+    
+  }
+  .teks {
+      color: white;
+      width: 400px;
+      justify-content: center;
+      padding-left: 20px;
+      font-weight:lighter;
+      padding-right: 500px;
+  }
+  .teks h2 {
+    font-size: 37px;
+    font-weight: lighter;
+    color: white;
+  }
+  button {
+      border: none;
+      height: 30px;
+      font-size: 15px;
+      border-radius: 30px;
+      padding: 1px 10px;
+      text-align: center;
+      font-family: serif;
+      font-weight:bold;
+  }
+  
+  .buton {
+      margin-left: 10px;
+      background-color: #86c232;
+      color: white;
+      border-radius: 0;
+  }
+  .name {
+    color: #86c232;
+    font-weight: bold;
+  }
+  .skill {
+    font-weight: bold;
+  }
+  .box1 {
+    width: 340px;
+    height: 200px;
+    background-color: #61892f;
+    border-radius: 10px;
+    box-shadow: 10px 8px 10px 0 rgba(29, 20, 26, 0.2);
+    margin: 20px;
+    padding: 20px;
+  }
+  .box1 h4 {
+    color: white;
+  }
+  .box1 p {
+    color: white;
+    font-weight: lighter;
+  }
+  .all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  p {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-bottom: 20px    ;
+  }
+  h4 {
+    padding-left: 15px;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 7px;
+  }
+  .about {
+    width: auto ;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .tex {
+    color: white;
+    padding-left: 50px  ;
+    width: 500px;
+    height: auto;
+    /* display: inline-block  ; */
+  }
+  .about .tex h2 {
+    font-size: 30px;
+  }
+   .tex p {
+    font-size: 13px;
+    font-weight: bold;
+    color: #86c232;
+  }
+ 
+  .halo {
+    width: auto;
+    height: 400px;
+    border-radius: 10px;
+    padding-left: 25px  ;
+   
+  }
+  .gambar {
+    background-color: #6b6e70;
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  }
+  .container {
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  padding: 10px;
+  width: 340px;
+  height: 285px;
+  background-color: #474b4f;
+  display: inline-block;
+  margin-right:20px;
+  border-radius: 10px;
+
+  
+}
+
+
+.imag{
+  width: 300px;
+  height: 180px;
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  
+}
+.imak {
+  width: 320px;
+  height: 180px;
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  
+}
+.visit a {
+  font-size: 13px;
+  font-weight: 700;
+}
+.visit1 a {
+  font-size: 13px;
+  font-weight: 700;
+}
+.arrow {
+  width: 20px;
+  height: 20px;
+}
+.arrow1 {
+  width: 20px;
+  height: 20px;
+}
+.visit {
+  border-bottom: 2px solid #86c232;
+  justify-content: center;
+  width: 140px;
+  color: white;
+}
+.visit1 {
+  border-bottom: 2px solid #86c232;
+  justify-content: center;
+  width: 150px;
+  padding-top: 14px;
+}
+.view {
+  border-radius: 5px;
+  color: beige;
+  background-color: slateblue;
+  padding: 10px;
+  height: 40px;
+  display: inline-block;
+  margin-left: 1200px;
+}
+.portofolio h2 {
+  font-size: 35px;
+  display: inline-block;
+}
+.portofolio p {
+  font-size: 12px;
+  font-weight: bold ;
+}
+.pembungkus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+.title {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 5px;
+  display : inline-block;
+  color: #86c232;
+}
+
+.description {
+  font-size: 12px;
+  color:;
+}
+.contact {
+  padding: 50px;
+  margin-top: 25px;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form input, .contact-form select, .contact-form textarea {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #86c232;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form .btn {
+  background-color: #86c232;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.button-submit button {
+background-color: slateblue;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.checkbox{
+margin-left: 110px;
+}
+.button-submit{
+margin-left: 570px;
+}
+.p {
+  text-align: center;
+}
+h6 {
+  text-align: center;
+  font-weight: lighter;
+}
+footer {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #6b6e70;
+} 
+.nav-botom {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+.nav-botom li a:hover {
+  color: #61892f;
+}
+.social img {
+  width: 30px;
+  height: auto;
+  padding
+}
+.social {
+  margin-right: 50px;
+}
+.ending p{
+  font-size: 12px;
+  font-weight: lighter;
+}
+.love {
+  width: 20px;
+  height: 20px;
+  padding-top: 5px;
+}
+.ending {
+  justify-content: center;
+  text-align: center;
+}
+.nav-botom li a {
+  padding: 20px;
+}
