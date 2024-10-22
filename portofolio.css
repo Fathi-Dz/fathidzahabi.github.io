@@ -360,4 +360,6 @@ footer {
 .ujung {
   background-color: #474b4f;
   border-radius: 10px;
+  width: 100vh;
+  height: auto;
 }
