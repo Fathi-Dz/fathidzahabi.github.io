@@ -64,12 +64,16 @@ a {
       justify-content: center;
       padding-left: 20px;
       font-weight:lighter;
-      padding-right: 750px;
+      padding-right: 300px;
   }
   .teks h2 {
-    font-size: 37px;
+    font-size: 40px;
     font-weight: lighter;
     color: white;
+  }
+  teks p {
+    font-weight: lighter;
+    font-size: 15px;
   }
   button {
       border: none;
@@ -170,6 +174,7 @@ a {
     -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
   }
+  
   .container {
     box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
@@ -233,7 +238,7 @@ a {
 .view {
   border-radius: 5px;
   color: beige;
-  background-color: slateblue;
+  background-color: #86c232;
   padding: 10px;
   height: 40px;
   display: inline-block;
