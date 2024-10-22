@@ -323,9 +323,7 @@ footer {
   display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #6b6e70;
-    background-color: #474b4f;
-    border-radius: 10px;
+    border-bottom: 2px solid #222629;
 } 
 .nav-botom {
   display: flex;
@@ -355,9 +353,11 @@ footer {
 .ending {
   justify-content: center;
   text-align: center;
-  background-color: #474b4f;
-  border-radius: 10px;
 }
 .nav-botom li a {
   padding: 20px;
+}
+.ujung {
+  background-color: #474b4f;
+  border-radius: 10px;
 }
